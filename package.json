@@ -2,16 +2,20 @@
   "name": "homepage",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://chengpham.github.io/homepage",
+  "homepage": "http://chengpham.github.io/chengpham.github.io",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.6",
     "@testing-library/react": "^11.2.2",
     "@testing-library/user-event": "^12.5.0",
-    "jquery": "^3.5.1",
+    "bootstrap": "^4.5.3",
+    "emailjs-com": "^2.6.4",
+    "rbx": "^2.2.0",
     "react": "^17.0.1",
     "react-awesome-slider": "^4.1.0",
     "react-dom": "^17.0.1",
+    "react-recaptcha": "^2.3.10",
     "react-scripts": "4.0.1",
+    "reactstrap": "^8.8.1",
     "web-vitals": "^0.2.4"
   },
   "scripts": {
@@ -20,7 +24,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "local": "CHOKIDAR_USEPOLLING=true react-scripts start"
   },
   "eslintConfig": {
     "extends": [
